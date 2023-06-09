@@ -1,0 +1,50 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "gg hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+ 
+ 
+ -- window
+local Tab = Window:MakeTab({
+	Name = "universal scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+-- notification
+OrionLib:MakeNotification({
+	Name = "discord",
+	Content = "discord not yet you bullshit",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+-- buttons
+Tab:AddButton({
+	Name = "infinite yield",
+	Callback = function(Value)
+      		print("button pressed")
+ loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+Tab:AddButton({
+	Name = "VG script",
+	Callback = function(Value)
+      		print("button pressed")
+getgenv().Key = "Key1203"
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+  	end    
+})
+Tab:AddButton({
+Name = "lag switch script",
+	Callback = function(Value)
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AnthonyIsntHere/anthonysrepository/main/scripts/ChatLag.lua"))()
+  	end    
+})
+Tab:AddButton({
+Name = "cockroach script",
+	Callback = function(Value)
+      		print("button pressed")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/cheeseburgrmc/y7ty/main/cockroach.md'))()
+  	end    
+})
