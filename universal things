@@ -8,11 +8,10 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-
 -- notification
 OrionLib:MakeNotification({
-	Name = "discord",
-	Content = "discord not yet you bullshit",
+	Name = "kill yourself",
+	Content = "kill yourself",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
@@ -48,3 +47,17 @@ Name = "cockroach script",
 loadstring(game:HttpGet('https://raw.githubusercontent.com/cheeseburgrmc/y7ty/main/cockroach.md'))()
   	end    
 })
+ -- window
+local Tab = Window:MakeTab({
+	Name = "flood escape 2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+Name = "flood escape god mode",
+	Callback = function(Value)
+      		print("button pressed")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kosuke14/REBOYHub/main/games/FE2GodMode.lua",true))()
+  	end    
+})
+
