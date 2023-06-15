@@ -60,4 +60,10 @@ Name = "flood escape god mode",
 loadstring(game:HttpGet("https://raw.githubusercontent.com/kosuke14/REBOYHub/main/games/FE2GodMode.lua",true))()
   	end    
 })
-
+Tab:AddButton({
+Name = "infinite jump",
+	Callback = function(Value)
+      		print("button pressed")
+loadstring(game:HttpGet("https://pastebin.com/raw/Q0F1njnh"))()
+  	end    
+})
